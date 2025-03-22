@@ -24,7 +24,7 @@ Stack* InStack(Stack* p, int in) {
     return t;
 }
 
-void View(Stack* p) {  // Функция просмотра Стека
+void View(Stack* p) {  
     Stack* t = p;
     while (t != NULL) {
         cout << " " << t->info << endl;
